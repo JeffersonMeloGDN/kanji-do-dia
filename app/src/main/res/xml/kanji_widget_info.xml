@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  No Android 16+ todo widget pode ir para a tela de bloqueio, a menos que declare
+  "not_keyguard"; "keyguard" fica para versões/fabricantes que ainda olham a categoria.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_description"
+    android:initialKeyguardLayout="@layout/widget_kanji"
+    android:initialLayout="@layout/widget_kanji"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:minResizeWidth="80dp"
+    android:minResizeHeight="80dp"
+    android:previewLayout="@layout/widget_kanji"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen|keyguard" />

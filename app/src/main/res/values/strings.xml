@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kanji do Dia</string>
+    <string name="widget_name">Kanji do Dia</string>
+    <string name="widget_description">Um kanji novo a cada hora</string>
+    <string name="notification_channel">Kanji atual</string>
+</resources>

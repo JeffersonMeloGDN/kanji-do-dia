@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- O kanji 日 desenhado com retângulos, centralizado na zona segura (66dp) do ícone adaptativo -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M38,30h32v48h-32z M44,36v15h20v-15z M44,57v15h20v-15z"
+        android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fundo transparente: texto branco com sombra para ler sobre qualquer papel de parede -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/widget_kanji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:shadowColor="#B3000000"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="日"
+        android:textColor="#FFFFFFFF"
+        android:textSize="64sp" />
+
+    <TextView
+        android:id="@+id/widget_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:shadowColor="#B3000000"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:text="dia, sol, Japão"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/widget_reading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:shadowColor="#B3000000"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:text="nichi, jitsu · hi, -bi"
+        android:textColor="#E6FFFFFF"
+        android:textSize="13sp" />
+</LinearLayout>
